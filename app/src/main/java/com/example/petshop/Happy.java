@@ -16,6 +16,8 @@ public class Happy extends Mood {
     public String toString() {
         return "happy";
     }
+
+    @Override
     public String getMood() {
         return this.toString();
     }

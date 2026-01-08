@@ -17,6 +17,7 @@ public class Sad extends Mood {
         return "sad";
     }
 
+    @Override
     public String getMood() {
         return this.toString();
     }
